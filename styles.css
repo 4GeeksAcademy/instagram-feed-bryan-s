@@ -1,0 +1,87 @@
+body {
+    background: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-feed {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1 {
+    background: white;
+    width: 600px;
+    margin: 80px auto;
+}
+
+.photo1-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstTitle {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.firstDate {
+    margin-right: 15px;
+    color: grey;
+}
+
+.img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.photo1-body {
+    padding: 10px;
+}
+
+.photo2, .photo3, .photo4 {
+    background: white;
+    width: 600px;
+    margin: 80px auto;
+}
+
+.photo2-header, .photo3-header, .photo4-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondTitle, .thirdTitle, .fourthTitle {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.secondDate, .thirdDate, .fourthDate {
+    margin-right: 15px;
+    color: grey;
+}
+
+.img2 img, .img3 img, .img4 img {
+    width: 100%;
+    height: auto;
+}
+
+.photo2-body, .photo3-body, .photo4-body {
+    padding: 10px;
+}
+
